@@ -28,6 +28,13 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          async
+          src="http://localhost:3000/w.js"
+          data-pinmark="pk_live_QtEptTyiPUgGXcYp4AVi4yNq"
+        />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
