@@ -31,7 +31,7 @@ export default function RootLayout({
       <head>
         <script
           async
-          src="http://localhost:3000/w.js"
+          src="https://www.pinmark.dev/w.js"
           data-pinmark="pk_live_QtEptTyiPUgGXcYp4AVi4yNq"
         />
       </head>
